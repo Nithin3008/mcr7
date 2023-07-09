@@ -12,7 +12,7 @@ export const TouristData = () => {
   return (
     <div>
       <h1>{ctrData.name}</h1>
-      <div>
+      <div className="placeData">
         <img src={ctrData.image}></img>
         <div>
           <p>Description: {ctrData.description}</p>

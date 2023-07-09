@@ -10,7 +10,7 @@ export const CountryData = () => {
     .countries.find((city) => city.id == cityId);
   return (
     <div>
-      <h1>Top Countries in {}</h1>
+      <h1>Top Tourist spots in {ctrData.name}</h1>
       <div className="contiData">
         {ctrData.destinations.map((val) => (
           <ul

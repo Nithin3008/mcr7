@@ -8,4 +8,14 @@ li {
 .contiData {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+.placeData {
+  display: flex;
+  width: 650px;
+  margin: auto;
+  margin-top: 10%;
+}
+.placeData img {
+  height: max-content;
 }

@@ -1,0 +1,11 @@
+img {
+  height: 250px;
+  width: 350px;
+}
+li {
+  list-style: none;
+}
+.contiData {
+  display: flex;
+  justify-content: center;
+}

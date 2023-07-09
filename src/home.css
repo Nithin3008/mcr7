@@ -12,9 +12,16 @@ li {
 }
 .placeData {
   display: flex;
-  width: 650px;
+  width: fit-content;
   margin: auto;
   margin-top: 10%;
+  gap: 10px;
+}
+.placeData div {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 .placeData img {
   height: max-content;

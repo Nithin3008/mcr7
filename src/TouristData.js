@@ -16,8 +16,8 @@ export const TouristData = () => {
         <img src={ctrData.image}></img>
         <div>
           <p>Description: {ctrData.description}</p>
-          <p>Rating:{ctrData.ratings}</p>
-          <p>Review:{ctrData.reviews}</p>
+          <p>Review:{ctrData.ratings}</p>
+          <p>Rating:{ctrData.reviews}</p>
           <p>Location:{ctrData.location}</p>
           <p>Opening Hours:{ctrData.openingHours}</p>
           <p>Ticket Price:{ctrData.ticketPrice}</p>
